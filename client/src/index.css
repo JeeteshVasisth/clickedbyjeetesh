@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 98%);
+  --foreground: hsl(0, 0%, 10%);
+  --muted: hsl(210, 40%, 96%);
+  --muted-foreground: hsl(215, 16%, 47%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(0, 0%, 10%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(0, 0%, 10%);
+  --border: hsl(214, 32%, 91%);
+  --input: hsl(214, 32%, 91%);
+  --primary: hsl(245, 58%, 51%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(210, 40%, 96%);
+  --secondary-foreground: hsl(222, 84%, 5%);
+  --accent: hsl(210, 40%, 96%);
+  --accent-foreground: hsl(222, 84%, 5%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(222, 84%, 5%);
+  --radius: 0.5rem;
+
+  /* Portfolio specific colors */
+  --portfolio-primary: hsl(0, 0%, 100%);
+  --portfolio-secondary: hsl(0, 0%, 10%);
+  --portfolio-accent: hsl(245, 58%, 51%);
+  --portfolio-neutral-light: hsl(210, 40%, 97%);
+  --portfolio-neutral: hsl(214, 32%, 91%);
+  --portfolio-neutral-dark: hsl(215, 16%, 47%);
+  --portfolio-background: hsl(0, 0%, 98%);
+}
+
+.dark {
+  --background: hsl(222, 84%, 5%);
+  --foreground: hsl(210, 40%, 98%);
+  --muted: hsl(217, 32%, 17%);
+  --muted-foreground: hsl(215, 20%, 65%);
+  --popover: hsl(222, 84%, 5%);
+  --popover-foreground: hsl(210, 40%, 98%);
+  --card: hsl(222, 84%, 5%);
+  --card-foreground: hsl(210, 40%, 98%);
+  --border: hsl(217, 32%, 17%);
+  --input: hsl(217, 32%, 17%);
+  --primary: hsl(245, 58%, 51%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(217, 32%, 17%);
+  --secondary-foreground: hsl(210, 40%, 98%);
+  --accent: hsl(217, 32%, 17%);
+  --accent-foreground: hsl(210, 40%, 98%);
+  --destructive: hsl(0, 62%, 30%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(212, 72%, 59%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .portfolio-primary {
+    color: var(--portfolio-primary);
+  }
+  
+  .portfolio-secondary {
+    color: var(--portfolio-secondary);
+  }
+  
+  .portfolio-accent {
+    color: var(--portfolio-accent);
+  }
+  
+  .portfolio-neutral-light {
+    color: var(--portfolio-neutral-light);
+  }
+  
+  .portfolio-neutral {
+    color: var(--portfolio-neutral);
+  }
+  
+  .portfolio-neutral-dark {
+    color: var(--portfolio-neutral-dark);
+  }
+  
+  .bg-portfolio-primary {
+    background-color: var(--portfolio-primary);
+  }
+  
+  .bg-portfolio-secondary {
+    background-color: var(--portfolio-secondary);
+  }
+  
+  .bg-portfolio-accent {
+    background-color: var(--portfolio-accent);
+  }
+  
+  .bg-portfolio-neutral-light {
+    background-color: var(--portfolio-neutral-light);
+  }
+  
+  .bg-portfolio-neutral {
+    background-color: var(--portfolio-neutral);
+  }
+  
+  .bg-portfolio-neutral-dark {
+    background-color: var(--portfolio-neutral-dark);
+  }
+  
+  .bg-portfolio-background {
+    background-color: var(--portfolio-background);
+  }
+}
