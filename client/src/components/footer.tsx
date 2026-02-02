@@ -63,7 +63,7 @@ export function Footer() {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
           <p data-testid="text-footer-copyright">
-            &copy; 2024 {photographer?.name || "Jeetesh Vasisth"} Photography. All
+            &copy; 2025 {photographer?.name || "Jeetesh Vasisth"} Photography. All
             rights reserved.
           </p>
         </div>
