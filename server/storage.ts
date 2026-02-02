@@ -119,7 +119,7 @@ export class MemStorage implements IStorage {
     {
       id: "12",
       title: "Banana Monkey",
-      description: "This humorous shot features a very relaxed monkey peeling off a banana.",
+      description: "This humorous shot featuring a very relaxed monkey peeling off a banana.",
       category: "Wildlife",
       tags: ["nature", "monkey", "banana", "peaceful", "wildlife"],
       date: "25th May 2025",
