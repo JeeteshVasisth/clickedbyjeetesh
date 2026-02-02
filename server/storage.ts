@@ -336,7 +336,7 @@ export class MemStorage implements IStorage {
 
   private photographerInfo: PhotographerInfo = {
     name: "Jeetesh Vasisth",
-    bio: "Hi, I am Jeetesh. A 16-year-old high school senior who just can’t stop buying camera lenses. Ever since I was handed a digicam by my father to film everyone on a family trip, I have been fascinated by these machines that seemingly pause the very moment I want for an eternity. I love capturing everything from the most random location to a monkey minding his own business, because the ability to revisit what I see and share it with everyone I know has always connected to me.",
+    bio: "Hi, I am Jeetesh. A 17-year-old high school senior who just can’t stop buying camera lenses. Ever since I was handed a digicam by my father to film everyone on a family trip, I have been fascinated by these machines that seemingly pause the very moment I want for an eternity. I love capturing everything from the most random location to a monkey minding his own business, because the ability to revisit what I see and share it with everyone I know has always connected to me.",
     location: "New Delhi, India",
     email: "jeeteshvasisth@gmail.com",
     specialties: ["Monkeys", "Nature", "Wildlife", "Landscapes"],
